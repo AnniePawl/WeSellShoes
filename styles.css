@@ -96,3 +96,26 @@ body {
   /*transform: scale(1.02);*/
   box-shadow: 0 2px 1px rgba(0,0,0,.3);
 }
+
+.clients {
+  height: 10rem;
+  width: 100%;
+  background: #ecf0f1;
+}
+
+.clients-header {
+  margin: 0;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: roboto;
+  font-weight: 400;
+}
+
+.client-images img {
+  transition: all 200ms;
+}
+
+.client-images img:hover {
+  transform: scale(1.2);
+}
