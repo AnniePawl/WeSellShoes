@@ -4,6 +4,7 @@ NAVBAR
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .nav-bar {
@@ -276,49 +277,54 @@ body {
 
 .a {
   background: url('https://images.pexels.com/photos/266840/pexels-photo-266840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-position: center;
+  background-size: cover;
 }
 
 .b {
   background: url('https://images.pexels.com/photos/812875/pexels-photo-812875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+   background-size: cover;
 }
 
 .c {
   background: url('https://images.pexels.com/photos/421160/pexels-photo-421160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-position: -70px;
+   background-size: cover;
 }
 
 .d {
   background: url('https://images.pexels.com/photos/112285/pexels-photo-112285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-}
+ background-size: cover;}
 
 .e {
   background: url('https://images.pexels.com/photos/293405/pexels-photo-293405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-}
+ background-size: cover;}
 
 .f {
   background: url('https://images.pexels.com/photos/1994/red-vintage-shoes-sport.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-repeat: no-repeat;
   background-position: -40px;
-}
+ background-size: cover;}
 
 
 .g {
   background: url('https://images.pexels.com/photos/373964/pexels-photo-373964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-position: -100px;
+   background-size: cover;
 }
 
 .h {
   background: url('https://images.pexels.com/photos/247203/pexels-photo-247203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-}
+ background-size: cover;}
 
 .i {
   background: url('https://images.pexels.com/photos/40383/shoes-rock-climbing-hiking-walking-40383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-}
+ background-size: cover;}
 
 .j {
   background: url('https://images.pexels.com/photos/116150/pexels-photo-116150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-position: 0px -60px;
-}
+ background-size: cover;}
 
 .panel div {
   background: rgba(0,0,0,.3);
@@ -331,4 +337,101 @@ body {
   .gallery > * {
     margin: 0;
   }
+}
+
+.testimonials {
+  margin-top: -2rem;
+  height: 80vh;
+  width: 100%;
+  background: #ecf0f1;
+}
+
+.testi-title {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.tests {
+  position: absolute;
+  width: 300%;
+  display: flex;
+  transition: all 400ms;
+}
+
+.tests.first {
+  right: -200%;
+}
+
+.tests.second {
+  right: -100%;
+}
+
+.tests.third {
+  right: 0%;
+}
+
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.test1 {
+  position: absolute;
+  left: 0;
+}
+
+.test2 {
+  position: absolute;
+  left: 33%;
+}
+
+.test3 {
+  position: absolute;
+  left: 66%;
+}
+
+
+.testi-image {
+  border: solid 8px white;
+  border-radius: 50%;
+  height: 272px;
+  width: 272px;
+}
+
+.testi-quote {
+  margin-top: 1rem;
+  border: solid 15px white;
+  border-radius: 2px;
+  background: white;
+}
+
+.testi-quote p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.dots {
+  align-self: baseline;
+  margin-top: 28rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.dot {
+  border: solid 1px black;
+  border-radius: 100%;
+  height: 8px; width: 8px;
+  margin-right: 1rem;
+  transition: all 200ms;
+}
+
+.dot:hover {
+  background: black;
 }
