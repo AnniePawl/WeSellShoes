@@ -87,25 +87,3 @@ for (let i = 0; i < acc.length; i++) {
     }
   });
 }
-
-
-
-
-  // const acc = document.getElementsByClassName("accordion");
-  // //loop thru buttons
-  // for (let i = 0; i < acc.length; i++) {
-  //   //trigger event after click
-  //   acc[i].addEventListener("click", function() {
-  //       this.classList.toggle("active");
-  //       let panel = this.nextElementSibling;
-  //
-  //     //if sib open, close it, if closed, open it
-  //     if (panel.style.maxHeight){
-  //         panel.style.maxHeight = null;
-  //       //panel open
-  //     } else {
-  //       //panel closed
-  //       panel.style.maxHeight = panel.scrollHeight + "px+";
-  //     }
-  //   });
-  // }
